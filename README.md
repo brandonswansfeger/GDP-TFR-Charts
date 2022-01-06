@@ -1,4 +1,4 @@
-<img src="https://github.com/brandonswansfeger/Project-1/blob/version-2/images/GettyImages-1210455332.jpg?raw=true" align="center" height="250" width="75%" >
+<img src="https://github.com/brandonswansfeger/GDP-Bar-Charts/blob/main/banner%20tfr.PNG?raw=true" align="center" height="250" width="75%" >
 
 <!-- PROJECT SHIELDS -->
 <!--
