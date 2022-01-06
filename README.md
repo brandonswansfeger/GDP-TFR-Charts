@@ -20,19 +20,19 @@
 <img >
 
 
-<h3 align="center">County Comparison:
-Covid-19 Vaccination Rate, Case Rate, and Death Rate</h3>
+<h3 align="center">Economic Development and Access to Family Planning:
+Using Bar Charts to Visualize the Data</h3>
 
   
   <div align="center"> 
-   <a href="https://github.com/brandonswansfeger/Project-1"><strong>Explore the docs »</strong></a>
+   <a href="https://github.com/brandonswansfeger/GDP-Bar-Charts"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://vaxx-cases-deathg.herokuapp.com/">View Demo</a>
+    <a href="https://tfr-gdp-bar-chart.herokuapp.com/">View Demo</a>
     ·
-    <a href="https://github.com/brandonswansfeger/Project-1/issues">Report Bug</a>
+    <a href="https://github.com/brandonswansfeger/GDP-Bar-Charts/issues">Report Bug</a>
     ·
-    <a href="https://github.com/brandonswansfeger/Project-1/issues">Request Feature</a>
+    <a href="https://github.com/brandonswansfeger/GDP-Bar-Charts/issues">Request Feature</a>
   </p>
 </div>
 
@@ -71,6 +71,12 @@ Covid-19 Vaccination Rate, Case Rate, and Death Rate</h3>
 While most demographers and economists have viewed socioeconomic factors as the driving forces behind fertility decline in developing countries, there is growing evidence that the “ease” of access to, or realistic availability of, fertility regulation methods may be at least as important in this demographic change. Much of the world's fertility decline has occurred where fertility regulation methods are relatively easy to obtain regardless of a "program", and those countries have not all exhibited economic development or significant improvements in education before the decline. In addition, there is evidence that removing barriers to family planning options actually builds a desire for small families – which would be consistent with our consumer behavior regarding other products and services. If governments and international donor agencies recognize and move to reduce certain barriers, this will benefit parents by enabling them to achieve their family size goals, and improve maternal health and child survival.
 
 This webapp provides a visualization of data showing that some countries have reduced family size before economic development has increased while also showing that most countries with fertility above replacement level have economies that are less developed.
+
+Economic Development
+GDP per capita, PPP* is the indicator selected to measure the econonomic development for each country. The countries are sorted in descending order from highest GDP per capita, PPP on the left towards the lowest GDP per capita, PPP on the right.
+
+Access to Family Planning
+Total Fertility Rate (TFR)** is the indicator selected to measure access to family planning. The vertical bars represent the TFR for each country and values are shown on the y axis.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
