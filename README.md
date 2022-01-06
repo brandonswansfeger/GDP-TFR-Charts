@@ -3,13 +3,12 @@
 
 # Introduction
 
-The goal of this project is to provide minimalistic django project template that everyone can use, which _just works_ out of the box and has the basic setup you can expand on. 
+While most demographers and economists have viewed socioeconomic factors as the driving forces behind fertility decline in developing countries, there is growing evidence that the “ease” of access to, or realistic availability of, fertility regulation methods may be at least as important in this demographic change. Much of the world's fertility decline has occurred where fertility regulation methods are relatively easy to obtain regardless of a "program", and those countries have not all exhibited economic development or significant improvements in education before the decline. In addition, there is evidence that removing barriers to family planning options actually builds a desire for small families – which would be consistent with our consumer behavior regarding other products and services. If governments and international donor agencies recognize and move to reduce certain barriers, this will benefit parents by enabling them to achieve their family size goals, and improve maternal health and child survival.
 
-Template is written with django 1.11 and python 3 in mind.
+This webapp provides a visualization of data showing that some countries have reduced family size before economic development has increased while also showing that most countries with fertility above replacement level have economies that are less developed.
 
-![Default Home View](__screenshots/home.png?raw=true "Title")
 
-### Main features
+### 
 
 * Separated dev and production settings
 
