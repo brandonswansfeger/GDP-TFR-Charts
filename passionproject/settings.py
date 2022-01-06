@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-ilm=%ns@g9434_2+%hx$t*ewguo^o3bd38&=8gix4eae5d=ud6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'tfr-gdp-bar-chart.herokuapp.com',
+]
 
 
 # Application definition
