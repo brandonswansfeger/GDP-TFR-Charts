@@ -126,4 +126,4 @@ STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 SESSION_ENGINE = 'django.contrib.sessions.backends.cache'
-STATIC_ROOT = os.path.join(BASE_DIR, ‘static’)
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
