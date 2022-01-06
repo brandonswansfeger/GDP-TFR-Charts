@@ -70,7 +70,7 @@ Using Bar Charts to Visualize the Data</h3>
 
 While most demographers and economists have viewed socioeconomic factors as the driving forces behind fertility decline in developing countries, there is growing evidence that the “ease” of access to, or realistic availability of, fertility regulation methods may be at least as important in this demographic change. Much of the world's fertility decline has occurred where fertility regulation methods are relatively easy to obtain regardless of a "program", and those countries have not all exhibited economic development or significant improvements in education before the decline. In addition, there is evidence that removing barriers to family planning options actually builds a desire for small families – which would be consistent with our consumer behavior regarding other products and services. If governments and international donor agencies recognize and move to reduce certain barriers, this will benefit parents by enabling them to achieve their family size goals, and improve maternal health and child survival.
 
-This webapp provides a visualization of data showing that some countries have reduced family size before economic development has increased while also showing that most countries with fertility above replacement level have economies that are less developed.
+Using date from The World Bank, World Development Indicators, this webapp provides a visualization of data showing that some countries have reduced family size before economic development has increased while also showing that most countries with fertility above replacement level have economies that are less developed.
 
 Economic Development
 GDP per capita, PPP* is the indicator selected to measure the econonomic development for each country. The countries are sorted in descending order from highest GDP per capita, PPP on the left towards the lowest GDP per capita, PPP on the right.
@@ -91,10 +91,14 @@ Total Fertility Rate (TFR)** is the indicator selected to measure access to fami
 
 ### Built With
 
-* [Javascript](https://www.javascript.com/)
-* [HTML](https://html.com/)
-* [Skeleton](http://getskeleton.com/)
-* [API/JQuery/AJAX](https://api.jquery.com/jquery.ajax/)
+- Django
+- Python
+- HTML
+- CSS
+- JavaScript
+- Matplotlib
+- Pandas
+- WBGAPI
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -237,17 +241,14 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/brandonswansfeger/Project-1.svg?style=for-the-badge
-[contributors-url]: https://github.com/brandonswansfeger/Project-1/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/brandonswansfeger/Project-1.svg?style=for-the-badge
-[forks-url]: https://github.com/brandonswansfeger/Project-1/network/members
-[stars-shield]: https://img.shields.io/github/stars/brandonswansfeger/Project-1.svg?style=for-the-badge
-[stars-url]: https://github.com/brandonswansfeger/Project-1/stargazers
-[issues-shield]: https://img.shields.io/github/issues/brandonswansfeger/Project-1.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/brandonswansfeger/Project-1.svg?style=for-the-badge
-[license-url]: https://github.com/brandonswansfeger/Project-1/blob/version-2/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/brandonswansfeger/GDP-Bar-Charts.svg?style=for-the-badge
+[contributors-url]: https://github.com/brandonswansfeger/GDP-Bar-Charts/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/brandonswansfeger/GDP-Bar-Charts.svg?style=for-the-badge
+[forks-url]: https://github.com/brandonswansfeger/GDP-Bar-Charts/network/members
+[stars-shield]: https://img.shields.io/github/stars/brandonswansfeger/GDP-Bar-Charts.svg?style=for-the-badge
+[stars-url]: https://github.com/brandonswansfeger/GDP-Bar-Charts/stargazers
+[issues-shield]: https://img.shields.io/github/issues/brandonswansfeger/GDP-Bar-Charts.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/brandonswansfeger/GDP-Bar-Charts.svg?style=for-the-badge
+[license-url]: https://github.com/brandonswansfeger/GDP-Bar-Charts/blob/version-2/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/brandonswansfeger
-[product-screenshot]:https://github.com/brandonswansfeger/Project-1/blob/version-2/images/screenshot_project1.PNG?raw=true
-[product-logo]:https://github.com/brandonswansfeger/Project-1/blob/version-2/screenshot_project1.PNG?raw=true
