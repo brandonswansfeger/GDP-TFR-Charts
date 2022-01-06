@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html style="background-color:rgba(7, 47, 79)" 
+{% comment %} background-image: url("https://www.hks.harvard.edu/sites/default/files/medium-hero-images/17_HKSmag_wi19_HKS-Research-Footprint_banner.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: 100 100; {% endcomment %}
+
+lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link href="form.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant&family=Cormorant+Garamond&family=Federo&family=Open+Sans:wght@300;600;700&family=Raleway&family=Roboto:wght@900&family=Taviraj&display=swap" rel="stylesheet">
+<style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+      
+        
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: top;
+            justify-items: top;
+            align-content: center;
+            align-items: center;
+            justify-content: top;
+            width: span;
+            {% comment %} padding-bottom: 100px; {% endcomment %}
+            {% comment %} height: ; {% endcomment %}
+       
+        }
+        .warpper {
+            display: flex;
+            flex-direction: column;
+            aligh-contents: center;
+            justify-content: top;
+            justify-items: top;
+            {% comment %} justify-content: space-around; {% endcomment %}
+            width: 100vw;
+            height: 100vh;
+            background-image: url("https://www.hks.harvard.edu/sites/default/files/medium-hero-images/17_HKSmag_wi19_HKS-Research-Footprint_banner.jpg");
+background-repeat: no-repeat;
+background-position: top;
+background-size: cover;
+        }
+        .main{
+            {% comment %} margin-bottom: 100px; {% endcomment %}
+            display: flex;
+            flex-direction: column;
+            align-items: top;
+            justify-items: flex-start;
+            align-content: flex-start;
+            align-items: center;
+            justify-content: top;
+            width: 400px;
+            height: 250px;
+            background-color: rgba(7, 47, 79, 0.63);
+            border-radius: 20px;
+            margin: 10px;
+            margin-top: 5%;
+            align-self: top;
+            {% comment %} margin: 20px; {% endcomment %}
+        }
+        h1 {
+            font-family: 'Federo', serif;
+            background-color:  rgba(7, 47, 79, 0.8);
+            color: white;
+            margin-top: 5%;
+            padding: 10px;
+
+        }
+        
+
+        h2 {
+            margin-top: 0;
+            {% comment %} width: 100%; {% endcomment %}
+            background-color: rgb(17, 67, 107);
+            {% comment %} height: 40px; {% endcomment %}
+            border-radius: 20px 20px 0 0;
+            width: 98%;
+            {% comment %} line-height: 40px; {% endcomment %}
+            text-align: center;
+            {% comment %} font-size: large;/div>
+</div> {% endcomment %}
+            font-weight: bold;
+            color: rgb(231, 232, 250);
+            padding: 4px;
+            font-size: large;
+            
+            
+        }
+        .chartdescription {
+            font-family: 'open sans', sans-serif;
+            background-color: rgb(238, 108, 77, .8);
+            max-width: 700px;
+            border-radius: 5px;
+            font-weight: 600;
+            padding: 3px;
+
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 250px;
+            border-radius: 20px;
+            align-self: top;
+            margin-top: 5%;
+            justify-content: top;
+            justify-items: top;
+        }
+form {
+    display: flex;
+            flex-direction: column;
+            justify-content: top;
+            justify-items: top;
+}
+
+        .name{
+            font-size: 16px;
+            color: #fff;
+            margin: 0 0 0 5%;
+         
+        }
+        .name-inp{
+            width: 90%;
+            height: 30px;
+            margin: 5px 0 0 5%;
+            font-size: 16px;
+            padding: 2px;
+            color: rgb(231, 232, 250);
+            border: 1px solid rgb(17, 67, 107);
+            background-color: rgb(231, 232, 250, .4);
+        }
+        .name-inp:hover{
+            background-color: rgb(0, 23, 41);
+            color: rgb(173, 167, 167);
+            border: 1px sol<h2>Select year and indicator below</h2> id rgb(139, 139, 139);
+        }
+        .pass{
+            margin: 5px 0 0 5%;
+            height: 30px;
+            width: 41%;
+            padding: 2px;
+            background-color: rgb(231, 232, 250);
+            border: 1px solid rgb(17, 67, 107);
+        }
+        .pass:hover{
+            background-color: rgb(0, 23, 41);
+            color: rgb(173, 167, 167);
+            border: 1px solid rgb(139, 139, 139);
+        }
+        .gender{
+            margin: 15px 0 <h2>Select year and indicator below</h2> 0 5%;
+            color: #fff;
+            font-size: 16px;
+        }
+        .gen{
+            font-size: 18px;
+        }
+        .genm{
+            margin-left: 5%;
+        }
+        .sub{
+            width: 40%;
+            font-family: 'open sans', sans-serif;
+            margin: 20px 0 0 0;
+            align-self: center;
+            font-size: large;
+            font-weight: 300;
+            height: 30px;
+            background-color: rgb(238, 108, 77, .8);
+            {% comment %} border: 1px solid rgb(17, 67, 107); {% endcomment %}
+            color: #fff;
+        }
+        .sub:hover{
+            background-color: #E94601;
+            color: #fff;
+        }
+img {
+    align-self: center;
+}
+.name  {
+    color: rgb(238, 108, 77);
+}
+
+    </style>
+</head>
+<body>
+
+    <div class="warpper" style="align-items:center;">
+
+    
+        <h1 class="title" style="text-align: center">Economic Development and Access to Family Planning:</br><span class="chartdescription" style="font-size:large"> Using Bar Charts to Visualize the Data</span></h1>
+        
+        <div class="main">
+             <h2 style="color:#ee6c4d"class="mt-0">Select year and indicator below</h2> 
+             <div class="form">
+                 
+             <form action="barchart/" method="post">
+                    {% csrf_token %} 
+              
+                    <label class="name" for="id_year">Year</label>
+                    <select class="name-inp" name="year" required id="id_year">
+                       <option value="">---------</option>
+                       <option value="YR2000">2000</option>
+                       <option value="YR2002">2002</option>
+                       <option value="YR2004">2004</option>
+                       <option value="YR2006">2006</option>
+                       <option value="YR2008">2008</option>
+                       <option value="YR2010">2010</option>
+                       <option value="YR2012">2012</option>
+                       <option value="YR2014">2014</option>
+                       <option value="YR2016">2016</option>
+                       <option value="YR2018" selected>2018</option>
+                    </select>
+                    <div style="margin-top:5px" class="mt-5">
+                    <label class="name mt-3" for="id_indicator">Indicator</label>
+                     <select class="name-inp" name="indicator"  required id="id_indicator">
+                        <option value="">---------</option>
+                        <option value="SP.DYN.TFRT.IN" selected>Total Fertility Rate</option>
+                     </select>
+                    </div>
+                    
+        <input type="submit" name="sb" value="SUBMIT" class="sub"></p>
+        </form>
+    
+
+
+
+
+        {% comment %} <img src="https://i.ibb.co/D7gHRVJ/chartexample.png" width="60%" height="150px" alt="chart example"/> {% endcomment %}
+    
+    
+
+    </div>
+</div>
+</div>
+</body>
+</html>
+			
+
+
+  
+

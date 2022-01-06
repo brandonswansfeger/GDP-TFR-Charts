@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand-lg" style="background-color: rgb(17, 67, 107); display: flex; flex-direction: inline; flex-wrap:wrap">
+    
+      
+      <div class="container" style="align-items: start; justify-content: flex-start; margin-left:0">
+        <a class="nav-link" href='/'><button style="margin-left:0; border: 1pt solid rgb(238, 108, 77); color: rgb(238, 108, 77); height: 30px; font-family: 'Raleway', sans-serif; font-size: 14px; padding: 5px; background-color:rgb(17, 67, 107)">Home</button></a>
+         <form style="max-width:600px; width: 100%; height: 40px; display: flex; flex-direction: inline; align-items: center; justify-content: center; justify-items: space-even; background-color: #98c1d9; padding: 2px; border-radius:4px" action="" method="post">
+           {% csrf_token %}
+          <label style="margin-right: 2px; padding-left: 0; font-family: 'Raleway', sans-serif; font-size: 75%" for="id_year">Year</label>
+          <select style="height: 30px; max-width: 50px; font-size: 75%; text-align: center; margin-right: 2%; font-family: 'Raleway', sans-serif; padding: 0" class="form-control" name="year" required id="id_year">
+              <option value="">---------</option>
+              <option value="YR2000">2000</option>
+              <option value="YR2002">2002</option>
+              <option value="YR2004">2004</option>
+              <option value="YR2006">2006</option>
+              <option value="YR2008">2008</option>
+              <option value="YR2010">2010</option>
+              <option value="YR2012">2012</option>
+              <option value="YR2014">2014</option>
+              <option value="YR2016">2016</option>
+              <option value="YR2018" selected>2018</option>
+           </select>
+           <label style="font-family: 'Raleway', sans-serif; font-size: 75%; margin-left: 2px; margin-right: 2px" for="id_indicator">Indicator</label>
+           <select style="height: 30px; max-width: 125px; font-size: 70%; text-align: center; margin-top: 0; font-family: 'Raleway', sans-serif" name="indicator" class="form-control" required id="id_indicator">
+              <option value="">---------</option>
+              <option value="SP.DYN.TFRT.IN" selected>Total Fertility Rate</option>
+           </select>
+           <button style="align-self: center; justify-self: center; max-width: 100px; height: 30px; font-family: 'Raleway', sans-serif; margin-left: 3%; font-size: 75%; background-color:#ee6c4d" type="submit" value="submit" class="btn btn-primary">Show Chart</button>
+          </div>
+          </form>
+    </div>
+</nav>
