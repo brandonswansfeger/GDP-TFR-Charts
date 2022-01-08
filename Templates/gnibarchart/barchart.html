@@ -3,22 +3,14 @@
 {% block title %}GNI Bar Chart{% endblock %}
 
 {% block content %}
-<div style="width: 100%; max-width:900px" class="container">
-    <p></p>
+
+   
   
 
-<div class="datatitle" style="background-color:rgb(17, 67, 107); box-shadow: 5px 5px 15px 5px #000000;  color: white; padding: 5px">
-<h5 style="color:#ee6c4d; font-family: 'Federo', serif">Economic Development</h5>
-<p style="font-family: 'open sans', serif">GDP per capita, PPP* is the indicator selected to measure the econonomic development for each country. The countries are sorted in descending order from highest GDP per capita, PPP on the left towards the lowest GDP per capita, PPP on the right.</p>
-{% comment %} </div>
-<div class="datatitle" style="background-color:rgb(17, 67, 107); color: white; padding: 5px"> {% endcomment %}
-<h5 style="color:#ee6c4d; font-family: 'Federo', serif">Access to Family Planning</h5>
-<p style="font-family: 'open sans', serif">Total Fertility Rate (TFR)** is the indicator selected to measure access to family planning. The vertical bars represent the TFR for each country and values are shown on the y axis.</p>    
-</br>
-<p style="font-size:small; font-family: 'open sans', serif">*GDP per capita, PPP (constant 2011 international $); **Fertility rate, total (births per woman) </br> Data Source: The World Bank, World Development Indicators.
-</div>
+
 {% if chart %}
-    <div style="--hover-width: 175%; --hover-height: 175%" class="ChartDiv mt-3">
+
+    <div class="mt-3">
         <h1 style="background-color: white; color: rgb(17, 67, 107); border:2pt solid rgb(17, 67, 107); box-shadow: 5px 5px 15px 5px #000000; text-align:center; font-size:x-large; font-weight: bold; margin-top: 15px; padding: 5px; font-family: 'open sans', serif"> {{ yearonly }} Total Fertility Rate (births per woman) ("TFR") </h1>
         <div style="font-size:small; height: 40px; border:1pt solid black; margin-top: 20px; background-color: #98c1d9">
             <p style="font-family: 'open sans', serif; text-align:center; margin-bottom:-10px; line-height:20px; font-weight:bold">Economic Development</p>
@@ -29,9 +21,9 @@
         </div>
         
     </div style="margin-left:-15px; position:absolute">
-        <img width="100%" height="65%" src="data:image/png;base64, {{chart|safe}}"/>
+        <img width="100%" height="75%" src="data:image/png;base64, {{chart|safe}}"/>
     </div>
     
     {% endif %}
-</div>
+
 {% endblock content %}
