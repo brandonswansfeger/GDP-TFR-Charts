@@ -85,7 +85,7 @@ Total Fertility Rate (TFR)** is the indicator selected to measure access to fami
  </div>
  <div>
   <img src="https://github.com/brandonswansfeger/GDP-Bar-Charts/blob/main/phonechartview.PNG" align="center"> 
-  <img src="https://github.com/brandonswansfeger/GDP-Bar-Charts/blob/main/chartview.PNG" align="center">
+  <img src="https://github.com/brandonswansfeger/GDP-Bar-Charts/blob/main/chartview.PNG" width="70%" align="center">
 </div>
 
 ### Built With
