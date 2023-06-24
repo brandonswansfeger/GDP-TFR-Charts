@@ -15,17 +15,20 @@ import os
 from pathlib import Path
 from dotenv import load_dotenv
 load_dotenv('.env')
+import dotenv
 
 # reading .env file
 # environ.Env.read_env()# Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-
+dotenv_file = os.path.join(BASE_DIR, ".env")
+if os.path.isfile(dotenv_file):
+    dotenv.load_dotenv(dotenv_file)
    
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 class Config(object):
-   SECRET_KEY = os.getenv('SECRET_KEY')
+   SECRET_KEY = os.environ['SECRET_KEY'] 
    EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER')
    EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')
 
