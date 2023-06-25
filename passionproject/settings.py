@@ -99,7 +99,7 @@ DATABASES = {
 
         'USER': 'bswansfeger',
 
-        'PASSWORD': 'Kitten2222!',
+        'PASSWORD': 'Password123',
 
         'HOST': 'localhost',
 
