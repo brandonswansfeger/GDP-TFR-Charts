@@ -28,7 +28,7 @@ if os.path.isfile(dotenv_file):
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 class Config(object):
-   SECRET_KEY = os.environ['SECRET_KEY'] 
+   SECRET_KEY = os.getenv('SECRET_KEY')
    EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER')
    EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')
 
