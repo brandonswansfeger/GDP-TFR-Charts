@@ -95,15 +95,15 @@ DATABASES = {
 
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
 
-        'NAME': 'passionproject',
+        'NAME': 'da291fjih5t7fe',
 
-        'USER': 'bswansfeger',
+        'USER': 'xaxsniiqwozlhy',
 
-        'PASSWORD': 'Password123',
+        'PASSWORD': 'c59723ad5c9c5ac66cf7322a1db947e83ca2901d5b3ad88542f6e263c75586d9',
 
-        'HOST': 'localhost',
+        'HOST': 'ec2-3-234-204-26.compute-1.amazonaws.com',
 
-        'PORT': '',
+        'PORT': '5432',
 
     }
 
